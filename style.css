@@ -1,0 +1,69 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+
+
+
+.gameContainer{
+    position: absolute;
+    text-align: center;
+    top: calc(15%);
+	left: calc(25%);
+}
+
+
+#gameScreen{
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+    background-color: grey;
+    position: relative;
+    background-size: cover !important;
+
+}
+
+#gameButtons{
+    position: relative;
+    height: 50px;
+    width: auto;
+    background-color: red;
+    top: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    border-radius: 0;
+    padding: 23px 50px;
+    background-color: palegreen;
+    border:  none;
+    line-height: 5px;
+    font-weight: 800;
+}
+
+
+#talk{
+    display: none;
+    position: absolute;
+    background-color: pink;
+    padding: 10px;
+    top: calc(25%);
+    left: calc(25%);
+    font-weight: 500;
+}
+#inventory{
+    position: relative;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    font-size: 25px;
+    display: flex;
+}
+
+#inventory img{
+    height: 100%;
+}
